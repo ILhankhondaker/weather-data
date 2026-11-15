@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Never commit real environment files
+.env
+.env.*
+!.env.example
+!.env.*.example
